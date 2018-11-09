@@ -1,0 +1,49 @@
+#########################
+#####    InvSort    #####
+#########################
+
+#
+# InvSort provides an easy way to sort your inventory!
+# 
+# You can sort your inventory using the /invsort or /isort commands
+# if you have the permission "invsort.use".
+#
+# PLEASE NOTE THAT CHESTSORT 3.1 OR LATER MUST BE INSTALLED!
+# Download ChestSort: https://www.spigotmc.org/resources/1-13-chestsort-api.59773/
+#
+
+# should we check for updates?
+# when enabled, a message is printed in the console if a new
+# version has been found, and OPs will be notified when they
+# join the server
+# When set to true, we will check for updates on startup and every 24 hours
+# When set to on-startup, we will only check on startup
+# When set to false, don't check for updates
+check-for-updates: true
+
+#########################
+##### localization ######
+#########################
+
+# Available color codes:
+# &0 Black        &6 Gold       &c Red
+# &1 Dark Blue    &7 Gray       &d Light Purple
+# &2 Dark Green   &8 Dark Gray  &e Yellow
+# &3 Dark Aqua    &9 Blue       &f White
+# &4 Dark Red     &a Green     
+# &5 Dark Purple  &b Aqua
+
+# Available formatting codes:
+# &k Obfuscated   &m Strikethrough
+# &l Bold         &o Italic
+# &n Underline    &r Reset
+
+##### English
+message-inventory-sorted: "&aYour inventory has been sorted."
+
+#########################
+#####     Done!     #####
+#########################
+
+# please do not change the following line manually!
+config-version: 1

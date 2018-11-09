@@ -1,0 +1,19 @@
+main: de.jeffclan.JeffInvSort.JeffInvSortPlugin
+name: InvSort
+version: 1.0
+api-version: 1.13
+description: Allows automatic inventory sorting
+author: mfnalex
+website: <none>
+prefix: InvSort
+database: false
+depends: [ChestSort]
+commands:
+  invsort:
+    description: Sorts your inventory
+    usage: /<command>
+    aliases: isort
+    permission: invsort.use
+permissions:
+  invsort.use:
+    description: Allows usage of the /invsort and /isort commands
